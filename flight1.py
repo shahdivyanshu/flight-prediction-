@@ -69,7 +69,9 @@ if len(data) != 0:
     server.starttls()
     server.ehlo()
 
-    server.login('devanshde12@gmail.com', '8765432!')
+    
+    #insert your email id and passsword with which you want to send email down below
+    server.login('email id ', 'password')
     subject = "Flight price for VNS-DEL has fallen\
     below Rs. " + str(dp)
 
